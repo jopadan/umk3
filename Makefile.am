@@ -4,149 +4,149 @@ AM_CFLAGS = -g -O2 $(CFLAGS)
 
 bin_PROGRAMS = umk3
 umk3_SOURCES = \
-               src/BKGDBALC.C \
-               src/BKGDESRT.C \
-	       src/BKGDSKEN.C \
-	       src/DIGLOAD.H \
-	       src/MKANI.C \
-	       src/MKBKGD.C \
-	       src/MKBONUS.H \
-	       src/MKBUG.H \
-	       src/MKCOIN.H \
-	       src/MKDRONE.H \
-	       src/MKFATAL.H \
-	       src/MKFX.H \
-	       src/MKHSTD.H \
-	       src/MKLADDER.H \
-	       src/MKMARK.H \
-	       src/MKOPT.H \
-	       src/MKPROP.H \
-	       src/MKREPELL.H \
-	       src/MKSELNEW.H \
-	       src/MKSOUND.C \
-	       src/MKUTIL.C \
-	       src/MOVES.C \
-	       src/PSXCDOLD.C \
-	       src/SNDLST.H \
-	       src/VALLOC.H \
-	       src/BKGDBANK.C \
-	       src/BKGDGRAV.C \
-	       src/BKGDSOUL.C \
-	       src/LCDLOAD.H \
-	       src/MKANI.H \
-	       src/MKBKGD.H \
-	       src/MKBOSS.C \
-	       src/MKBUYIN.C \
-	       src/MKCOMBO.C \
-	       src/MKEND.C \
-	       src/MKFILE.C \
-	       src/MKGAME.H \
-	       src/MKINIT.C \
-	       src/MKMAIN.C \
-	       src/MKMODE.C \
-	       src/MKOS.C \
-	       src/MKR1.C \
-	       src/MKSCORE.C \
-	       src/MKSLAM.C \
-	       src/MKSOUND.H \
-	       src/MKUTIL.H \
-	       src/MOVES.H \
-	       src/PSXCDOLD.H \
-	       src/SONYRLE.C \
-	       src/BKGDBELL.C \
-	       src/BKGDMOCK.C \
-	       src/BKGDTEMP.C \
-	       src/MAIN.C \
-	       src/MKANIMAL.C \
-	       src/MKBKMOD.C \
-	       src/MKBOSS.H \
-	       src/MKBUYIN.H \
-	       src/MKCOMBO.H \
-	       src/MKEND.H \
-	       src/MKFILE.H \
-	       src/MKGLOBAL.C \
-	       src/MKINIT.H \
-	       src/MKMAIN.H \
-	       src/MKMODE.H \
-	       src/MKOS.H \
-	       src/MKR1.H \
-	       src/MKSCORE.H \
-	       src/MKSLAM.H \
-	       src/MKSTAT.C \
-	       src/MKVS.C \
-	       src/PSXCDABS.C \
-	       src/PSXSND.C \
-	       src/SOUNDHW.H \
-	       src/BKGDBRIG.C \
-	       src/BKGDPIT.C \
-	       src/BKGDWATR.C \
-	       src/MK3SND.H \
-	       src/MKANIMAL.H \
-	       src/MKBLOOD.C \
-	       src/MKBRIEF.C \
-	       src/MKCANNED.C \
-	       src/MKDIAG.C \
-	       src/MKFADE.C \
-	       src/MKFRIEND.C \
-	       src/MKGUYS.C \
-	       src/MKJOY.C \
-	       src/MKMAINOD.C \
-	       src/MKOBJ.C \
-	       src/MKPAL.C \
-	       src/MKREACT.C \
-	       src/MKSEL.C \
-	       src/MKSND.H \
-	       src/MKSTAT.H \
-	       src/MKVS.H \
-	       src/PSXCDABS.H \
-	       src/PSXSND.H \
-	       src/STDARG.H \
-	       src/BKGDCAVE.C \
-	       src/BKGDPORT.C \
-	       src/DAVID.C \
-	       src/MKAMODE.C \
-	       src/MKBIO.C \
-	       src/MKBLOOD.H \
-	       src/MKBRIEF.H \
-	       src/MKCANNED.H \
-	       src/MKDIAG.H \
-	       src/MKFADE.H \
-	       src/MKFRIEND.H \
-	       src/MKGUYS.H \
-	       src/MKJOY.H \
-	       src/MKMAINOD.H \
-	       src/MKOBJ.H \
-	       src/MKPAL.H \
-	       src/MKREACT.H \
-	       src/MKSEL.H \
-	       src/MKSONY.C \
-	       src/MKTEXT.C \
-	       src/MKZAP.C \
-	       src/PSXCD.C \
-	       src/PSXSPU.H \
-	       src/SYSTEM.H \
-	       src/BKGDCITY.C \
-	       src/BKGDSBST.C \
-	       src/DAVID.H \
-	       src/MKAMODE.H \
-	       src/MKBIO.H \
-	       src/MKBONUS.C \
-	       src/MKBUG.C \
-	       src/MKCOIN.C \
-	       src/MKDRONE.C \
-	       src/MKFATAL.C \
-	       src/MKFX.C \
-	       src/MKHSTD.C \
-	       src/MKLADDER.C \
-	       src/MKMARK.C \
-	       src/MKOPT.C \
-	       src/MKPROP.C \
-	       src/MKREPELL.C \
-	       src/MKSELNEW.C \
-	       src/MKSONY.H \
-	       src/MKTEXT.H \
-	       src/MKZAP.H \
-	       src/PSXCD.H \
-	       src/SEQLOAD.H \
-	       src/VALLOC.C
+src/bkgdbalc.c \
+src/bkgdgrav.c \
+src/bkgdtemp.c \
+src/mk3snd.h \
+src/mkbio.c \
+src/mkbonus.c \
+src/mkbug.h \
+src/mkcombo.c \
+src/mkend.h \
+src/mkfriend.c \
+src/mkguys.h \
+src/mkladder.c \
+src/mkmark.h \
+src/mkos.c \
+src/mkr1.h \
+src/mksel.c \
+src/mksony.c \
+src/mktext.h \
+src/moves.c \
+src/psxcdold.h \
+src/soundhw.h \
+src/bkgdbank.c \
+src/bkgdmock.c \
+src/bkgdwatr.c \
+src/mkamode.c \
+src/mkbio.h \
+src/mkbonus.h \
+src/mkbuyin.c \
+src/mkcombo.h \
+src/mkfade.c \
+src/mkfriend.h \
+src/mkhstd.c \
+src/mkladder.h \
+src/mkmode.c \
+src/mkos.h \
+src/mkreact.c \
+src/mksel.h \
+src/mksony.h \
+src/mkutil.c \
+src/moves.h \
+src/psxsnd.c \
+src/stdarg.h \
+src/bkgdbell.c \
+src/bkgdpit.c \
+src/david.c \
+src/mkamode.h \
+src/mkbkgd.c \
+src/mkboss.c \
+src/mkbuyin.h \
+src/mkdiag.c \
+src/mkfade.h  \
+src/mkfx.c \
+src/mkhstd.h \
+src/mkmain.c \
+src/mkmode.h \
+src/mkpal.c \
+src/mkreact.h \
+src/mkselnew.c \
+src/mksound.c \
+src/mkutil.h \
+src/psxcdabs.c \
+src/psxsnd.h \
+src/system.h \
+src/bkgdbrig.c \
+src/bkgdport.c \
+src/david.h \
+src/mkani.c \
+src/mkbkgd.h \
+src/mkboss.h \
+src/mkcanned.c \
+src/mkdiag.h \
+src/mkfatal.c \
+src/mkfx.h \
+src/mkinit.c \
+src/mkmain.h \
+src/mkobj.c \
+src/mkpal.h \
+src/mkrepell.c \
+src/mkselnew.h \
+src/mksound.h \
+src/mkvs.c \
+src/psxcdabs.h \
+src/psxspu.h \
+src/valloc.c \
+src/bkgdcave.c \
+src/bkgdsbst.c \
+src/digload.h \
+src/mkani.h \
+src/mkbkmod.c \
+src/mkbrief.c \
+src/mkcanned.h  \
+src/mkdrone.c \
+src/mkfatal.h \
+src/mkgame.h \
+src/mkinit.h \
+src/mkmainod.c \
+src/mkobj.h \
+src/mkprop.c \
+src/mkrepell.h \
+src/mkslam.c \
+src/mkstat.c \
+src/mkvs.h \
+src/psxcd.c \
+src/seqload.h \
+src/valloc.h \
+src/bkgdcity.c \
+src/bkgdsken.c \
+src/lcdload.h \
+src/mkanimal.c \
+src/mkblood.c \
+src/mkbrief.h \
+src/mkcoin.c \
+src/mkdrone.h \
+src/mkfile.c \
+src/mkglobal.c \
+src/mkjoy.c \
+src/mkmainod.h \
+src/mkopt.c \
+src/mkprop.h \
+src/mkscore.c \
+src/mkslam.h \
+src/mkstat.h \
+src/mkzap.c \
+src/psxcd.h \
+src/sndlst.h \
+src/bkgdesrt.c \
+src/bkgdsoul.c \
+src/main.c \
+src/mkanimal.h \
+src/mkblood.h \
+src/mkbug.c \
+src/mkcoin.h \
+src/mkend.c \
+src/mkfile.h \
+src/mkguys.c \
+src/mkjoy.h \
+src/mkmark.c \
+src/mkopt.h \
+src/mkr1.c \
+src/mkscore.h \
+src/mksnd.h \
+src/mktext.c \
+src/mkzap.h \
+src/psxcdold.c \
+src/sonyrle.c
 

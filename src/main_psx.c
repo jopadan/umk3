@@ -102,7 +102,7 @@ static strKickCD(CdlLOC *loc);
 static strSetDefDecEnv(DECENV *dec, int x0, int y0, int x1, int y1);
 static void anim(char *fileName);
 
-int main(int argc, char* argv[])
+main()
 {
 	struct EXEC exec;
 
@@ -127,7 +127,6 @@ int main(int argc, char* argv[])
 	_96_init();
 	LoadExec("cdrom:\\MK3.EXE;1", 0x801fff00, 0);
 
-	exit(EXIT_SUCCESS);
 	return(0);
 }
 
