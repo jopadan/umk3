@@ -2,13 +2,11 @@ ACLOCAL_AMFLAGS = -I m4
 
 AM_CFLAGS = -g -O2 $(CFLAGS)
 
-bin_PROGRAMS = psxmov
+bin_PROGRAMS = umk3 psxmov
 
 psxmov_SOURCES = \
 examples/psxmov/main.c
 
-
-bin_PROGRAMS = umk3
 umk3_SOURCES = \
 src/bkgdbalc.c \
 src/bkgdgrav.c \
